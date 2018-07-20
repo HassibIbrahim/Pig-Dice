@@ -3,6 +3,29 @@
 }
 
 body{
-  background-image: url(https://www.bing.com/th?id=OIP.ff05sDERHjs1t7YH3sNJawHaHK&w=228&h=213&c=7&o=5&dpr=2&pid=1.7);
+  background-image: url(https://www.bing.com/th?id=OIP.MbvUJ2KrR2P4rxcIffv3pAHaFP&w=268&h=189&c=7&o=5&dpr=2&pid=1.7);
 
+}
+.container{
+  background-image: url(https://images.duckduckgo.com/iu/?u=https%3A%2F%2Ffthmb.tqn.com%2FIEGXZj8D03-016vh0lQxcgUZKOQ%3D%2F1915x1566%2Ffilters%3Afill(auto%2C1)%2FGettyImages-547881701-596422b15f9b583f18138e5b.jpg&f=1);
+}
+
+#pigForm {
+  flex: 1;
+  margin-top: .5vh;
+  background-color: #A058FC;
+}
+
+.container-fluid{
+  background-image: url(https://images.duckduckgo.com/iu/?u=https%3A%2F%2Ffthmb.tqn.com%2FIEGXZj8D03-016vh0lQxcgUZKOQ%3D%2F1915x1566%2Ffilters%3Afill(auto%2C1)%2FGettyImages-547881701-596422b15f9b583f18138e5b.jpg&f=1);
+}
+
+#gameDisplayPlayer1 {
+  background-color: silver;
+  border: 2px solid brown;
+}
+
+#gameDisplayPlayer2 {
+  background-color: gold;
+  border: 2px solid brown;
 }

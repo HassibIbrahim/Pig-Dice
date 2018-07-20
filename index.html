@@ -15,7 +15,7 @@
 <body>
   <div class="container">
   <div class="jumbotron">
-<img src="img/dice2.jpg" alt="dice" width="35%"/>
+
       <div class="align-middle">
         <h1>Let's hit the Pig-Dice!</h1>
       </div>
@@ -23,6 +23,61 @@
 
 
   </div>
+  <div class="container-fluid">
+
+
+  <div class="col-xs-3" id="">
+    <form id="pigForm" class="form-group" action="index.html" method="post">
+            <div class="player-group">
+              <label class="player-group">Enter Player 1 name</label>
+              <input id="playerName1" type="text">
+            </div>
+            <div class="playersName">
+              <label class="player-group">Enter Player 2 name</label>
+              <input id="playerName2" type="text">
+            </div>
+            <button class="player-group btn-success" name="button">Submit</button>
+          </form>
+  </div>
+
+  <br>
+  <div class="gameDisplay">
+    <div class="col-md-5" id="gameDisplayPlayer1">
+      <h1><span id="playerName1"></span>'s Score: <span class="gameStatusDisplay  player1Score">0</span></h1>
+      <div id="player1Button">
+      <h2>Player <span class="playerStatus" class="gameStatusDisplay"></span>'s Turn</h2>
+      <h2>Score for this Turn: <span id="turnScore" class="gameStatusDisplay turnScore"></span></h2>
+      <h2>Roll Result: <span id="rollResult" class="gameStatusDisplay rollResult"></span></h2>
+
+      <button type="button" class="btn btn-warning btn-lg rollPig">Roll for More Points!</button>
+      <button type="button" class="btn btn-primary btn-lg holdPig">Stop rolling and keep points...</button>
+      </div>
+    </div>
+
+
+    <div class="col-md-5 col-md-offset-2" id="gameDisplayPlayer2">
+      <h1><span id="playerName2"></span>'s Score: <span class="gameStatusDisplay player2Score">0</span></h1>
+      <div id="player2Button">
+      <h2>Player <span class="playerStatus"></span>'s Turn</h2>
+
+      <h2>Score for this Turn: <span id="turnScore" class="gameStatusDisplay turnScore"></span></h2>
+      <h2>Roll Result: <span id="rollResult" class="gameStatusDisplay rollResult"></span></h2>
+
+
+      <button type="button" class="btn btn-warning btn-lg rollPig">Roll for More Points!</button>
+      <button type="button" class="btn btn-primary btn-lg holdPig">Stop rolling and keep points...</button>
+    </div>
+
+  </div>
+
+
+
+  </div>
+</div>
+
+
+
+
   </div>
 
 </body>
