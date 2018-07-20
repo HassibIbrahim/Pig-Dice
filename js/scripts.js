@@ -68,9 +68,11 @@ function resetGame() {
 }
 
 // -----BUSINESS LOGIC --- (above) -----
-// ------------------------------------
-// ----USER LOGIC ---- (below)--------
 
+
+
+
+//USER LOGIC
 
 function alertEndTurn(){
   alert("Sorry - you rolled a 1.  Your score remains the same and your turn is over.");
