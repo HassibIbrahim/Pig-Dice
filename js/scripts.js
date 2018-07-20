@@ -98,5 +98,18 @@ $(document).ready(function() {
     var nameHolder = new Names(playerName1, playerName2);
   })
 
+  $(".rollPig").click(function() {
+    pigResult = playerRoll();
+    $(".rollResult").text(pigResult);
+    $(".turnScore").text(pigGame.turnScore);
 
-  
+  });
+
+  $(".holdPig").click(function(){
+    holdThePig();
+    $("rollResult").text("");
+    $(".player1Score").text(pigGame.player1Score);
+    $(".player2Score").text(pigGame.player2Score);
+    $(".playerStatus").text(pigGame.playerUp);
+  });
+  });
